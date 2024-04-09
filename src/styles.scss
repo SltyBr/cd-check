@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+.block {
+    background-color: aqua;
+    border-radius: 20px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    width: 150px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all;
+}
+
+.checked {
+    background: #bada55;
+}
+
+.host {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
