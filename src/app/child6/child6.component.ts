@@ -12,7 +12,6 @@ import { Child8Component } from 'src/app/child8/child8.component';
   host: {
     class: 'host'
   },
-  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class Child6Component {
   private elementRef = inject(ElementRef);

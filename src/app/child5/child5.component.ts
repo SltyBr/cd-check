@@ -7,7 +7,6 @@ import { hightlight } from '../highlight';
   imports: [],
   templateUrl: './child5.component.html',
   styleUrls: ['./child5.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class Child5Component {
   private elementRef = inject(ElementRef);
