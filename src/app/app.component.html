@@ -2,6 +2,7 @@
 {{ cdCheck() }}
 <div class="block" (click)="doSomething()">App Component</div>
 <div style="display: flex; gap: 50px">
-    <app-child1></app-child1>
+    <app-child1 [test]="'hello'"></app-child1>
     <app-child2></app-child2>
 </div>
+<iframe src="../assets/test.html"></iframe>
